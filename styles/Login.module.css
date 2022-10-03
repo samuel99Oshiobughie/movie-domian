@@ -15,7 +15,7 @@
     justify-content: space-between;
     width: 100%;
   
-    padding-top: 2rem /* 32px */;
+    padding-top: 1rem /* 32px */;
     padding-bottom: 2rem /* 32px */;
   }
   
@@ -36,7 +36,8 @@
   
   .logoWrapper {
     color: var(--red);
-    width: 8rem /* 128px */;
+    width: 13rem /* 128px */;
+    
   }
   
   .main {
@@ -99,7 +100,8 @@
   }
   
   .loginBtn {
-    background-color: var(--red10);
+    /* background-color: var(--red10); */
+    background-color: #6617a6;
   
     padding-left: 3rem /* 48px */;
     padding-right: 3rem /* 48px */;

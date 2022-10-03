@@ -70,10 +70,10 @@ const NavBar = () => {
           <a>
             <div className={styles.logoWrapper}>
               <Image
-                src="/static/netflix.svg"
+                src="/static/grimore.png"
                 alt="Netflix logo"
-                width="128px"
-                height="34px"
+                width="228px"
+                height="148px"
               />
             </div>
           </a>

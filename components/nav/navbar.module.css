@@ -8,13 +8,14 @@
     --gradient-stops: var(--gradient-from), var(--gradient-to, rgba(0, 0, 0, 0));
     width: 100%;
     z-index: 50;
+    
   }
   
   .wrapper {
     padding-left: 1rem /* 16px */;
     padding-right: 1rem /* 16px */;
     display: flex;
-    padding: 1.25rem /* 20px */;
+    padding-bottom: 1.25rem /* 20px */;
   }
   
   .logoLink {
@@ -23,12 +24,14 @@
     font-size: 1rem;
     align-items: center;
     color: var(--white10);
-    margin-bottom: 1rem /* 16px */;
+    margin-bottom: 0rem /* 16px */;
   }
   
   .logoWrapper {
     color: var(--red);
     width: 8rem /* 128px */;
+    line-height: 0%;
+    bottom: 5px;
   }
   
   .navItems {
@@ -38,7 +41,6 @@
     margin-left: 1.5rem /* 24px */;
     font-size: 0.875rem /* 14px */;
     font-size: 1rem;
-  
     line-height: 1.25rem /* 20px */;
     list-style: none;
   }
